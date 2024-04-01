@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(29, 73, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    position: relative ;
+    width: 900px;
+    max-width: 1000px;
+    height: 500px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+.container .image {
+    background-color: rgb(183, 190, 157);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .platforme {
+    padding: 60px;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.platforme input.box{
+    margin-bottom: 15px;
+    width: 300px; /* Définit la largeur de l'input à 200 pixels */
+    border-radius: 50px ;/* Définit un rayon de bordure de 5 pixels pour des coins arrondis */
+    padding : 10px;
+    border:none;
+    border: 2px solid  #d2d6df;
+}
+input[type="submit"] {
+    background-color: #4184ef; /* Couleur de fond bleue */
+    color: white; /* Couleur du texte blanc */
+}
+.try{
+    color: #94969b;
+}
+.plat{
+    font-size: 30px;
+    padding: 25px;
+}
+.a1, .a2{
+    padding: 80px;
+    text-decoration: none; /* Supprimer le soulignement */
+    color: #4184ef; /* Utiliser la couleur héritée du parent */
+}
+.a2{
+    padding: 110px;
+    
+}
+.container p{
+    color: #94969b;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Appliquer ces styles lorsque l'écran a une largeur maximale de 600 pixels, adapté pour les téléphones portables */
+@media screen and (max-width: 1024px) {
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .image {
+      display: none; /* Cacher l'image */
+    }
+  }
+  
+
+
+

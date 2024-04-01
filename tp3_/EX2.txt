@@ -1,0 +1,100 @@
+Écrivez un sélecteur pour chacun des énoncés suivants.
+
+1-Tous les éléments a emboités dans un élément p.
+reponse 
+
+p   a{
+
+ style 
+
+}
+
+2-Tous les éléments img appartenant à la classe encadre et placés dans un élément div appartenant à la classe enonce.
+reponse 
+
+div.enonce   img.encadre{
+
+ style 
+
+}
+
+3-Tous les éléments img dont l'attribut width vaut 300.
+reponse 
+
+img [width=300]{
+
+ style 
+
+}
+
+4-Tous les éléments time dont l'attribut datetime a été défini et qui sont situés dans un élément article appartenant à la classe remarque.
+reponse 
+
+article.remarque time[datetime]{
+
+ style 
+
+}
+
+5-Tous les éléments p qui sont fils d'un élément div de la classe exemple.
+reponse 
+
+div.exemple  p{
+
+ style 
+
+}
+
+6-Tous les éléments img de classe encadre placés dans un élément p dont l'id est important.
+reponse 
+
+p#important img.encadre{
+
+ style 
+
+}
+
+7-Le premier élément img dont le père est un élément div
+reponse 
+
+div  imgfirst-child {
+
+ style 
+
+}
+
+8-Tous les éléments img fils de rang impair d'un élément quelconque du document html
+reponse 
+
+  imgnth-of-type(odd) {
+
+ style 
+
+}
+
+9-Tous les éléments a dont la cible est un fichier d'extension .jpg situé dans le premier élément p qui est fils d'un élément article de la classe exercice.
+reponse 
+
+article.exercice  pfirst-child a[href$=.jpg] {
+
+ style 
+
+}
+
+10-Les éléments div de la classe remarque qui sont les premiers frères (suivant) d'un élément div de classe reponse.
+reponse 
+
+div.reponse + div.remarque {
+
+ style 
+
+}
+
+11-Le second élément de type p fils d'un élément article placé dans un élément section
+reponse 
+
+section article  pnth-of-type(2) {
+
+ style 
+
+}

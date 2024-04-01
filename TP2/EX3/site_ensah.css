@@ -1,0 +1,142 @@
+.me{
+    position: relative;
+    height: 200px;
+    width: 100%; 
+    background-color: #16447C;
+}
+body{
+    padding: 0;
+    margin: 0 ;
+}
+.text{
+    padding: 10px;
+    color: aliceblue;
+    line-height: 1.5;
+}
+.me .text .ligne1 {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 8px;
+    font-weight: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.me .text .ligne2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 0;
+}
+.me .text .ligne3 {
+    font-size: 14px;
+    font-weight: 0;
+    color:#3c8ff5
+}
+.search{
+    color: rgb(93, 152, 203);
+    position: absolute; 
+    top: 0; 
+    left: 1030px;
+}
+.search p{
+    margin-left: 50px;
+}
+.search input[type="text"] {
+    color: #dcd378;
+    width: 230px;
+    height: 30px;
+    border: 1px solid #62a0f6;
+    padding: 3px;
+    font-size: 16px;
+    background-color:  rgb(18, 69, 114);
+    cursor: pointer;
+    outline: none;
+}
+
+table {
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    border-collapse: collapse; /* Fusionner les bordures de cellules */
+    margin: 10px;
+    margin-bottom: 0;
+    background-color: #244d7e;
+    text-align: center;
+    
+}
+td {
+    border: 1px solid #2c60e5; 
+    padding: 15px;
+}
+.cellule-icone {
+    text-align: right; /* Alignement du contenu à gauche */
+    letter-spacing: 8px;
+  }
+  
+  .cellule-icone a i {
+    color: white; /* Couleur du texte en blanc */
+  }
+  
+  .icone-label {
+    display: none; /* Par défaut, masquez l'étiquette */
+    position: absolute; /* Position absolue pour le positionnement précis */
+    top: -30px; /* Positionnez l'étiquette au-dessus de l'icône */
+    
+    transform: translateX(-5%); /* Centrez l'étiquette horizontalement */
+    background-color: black; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 5px; /* Espacement intérieur */
+    border-radius: 5px; /* Bord arrondi */
+  }
+  
+  .icone-facebook:hover .icone-label,
+  .icone-twitter:hover .icone-label,
+  .icone-google:hover .icone-label {
+    display: block; /* Affichez l'étiquette au survol */
+  }
+  
+  .icone-facebook:hover i {
+    color: yellow; /* Couleur de l'icône en jaune au survol */
+  }
+  .icone-twitter:hover i {
+    color: yellow; /* Couleur de l'icône en jaune au survol */
+  }
+  .icone-google:hover i {
+    color: yellow; /* Couleur de l'icône en jaune au survol */
+  }
+.Acceuil a{
+    color: #dcd378;
+    text-decoration: none;
+}
+.Acceuil:hover a {
+    color: aliceblue;
+}
+#choix {
+    background-color: #244d7e;
+    color: aliceblue;
+    border: none;
+    width: 90%;
+}
+img {
+    top: 0;
+    width: 100px; /* Définir la largeur de l'image */
+    height: 80px; /* Laisser la hauteur se redimensionner automatiquement pour conserver les proportions */
+    
+  }
+.image-container .image-normale{
+    position: absolute ;
+    left: 550px;
+    top:0;
+}
+.image-container .image-hover{
+    position: absolute ;
+    left: 550px;
+    top:0;
+}
+.image-hover {
+    display: none; /* Par défaut, l'image au survol est cachée */
+}
+  
+.image-container:hover .image-hover {
+    display: block; /* Afficher l'image au survol lorsque le conteneur est survolé */
+}
+  

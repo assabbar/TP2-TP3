@@ -1,0 +1,97 @@
+.block1{
+    height: 100px;
+    width: 1250px; 
+    background-color: #42afdb;
+    color: #010707;
+}
+
+.block2{
+    height: 100px;
+    width: 1250px; 
+    background-color: #a5e37c;
+    color: #010707;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between; /* Centrer horizontalement */
+    width: 1250px;
+    
+}
+.bloc {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    margin-bottom: 10px;
+    border: 2px solid #010707;
+}
+.block3{
+    height: 150px;
+    width: 270px; 
+    background-color: #e2e9a0;
+    color: #010707;
+}
+.block4{
+    height: 150px;
+    width: 270px; 
+    background-color: #e277c9;
+    color: #010707;
+}
+.block5{
+    height: 150px;
+    width: 270px; 
+    background-color: #8265ec;
+    color: #010707;
+}
+.block6{
+    height: 150px;
+    width: 270px; 
+    background-color: #f1a21a;
+    color: #010707;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between; /* Centrer horizontalement */
+    width: 1250px;
+    
+}
+.block7{
+    height: 150px;
+    width: 600px; 
+    background-color: #1af1db;
+    color: #010707;
+}
+.block8{
+    height: 150px;
+    width: 600px; 
+    background-color: #1af1db;
+    color: #010707;
+}
+.block9{
+    height: 100px;
+    width: 1250px; 
+    background-color: #941af1;
+    color: #010707;
+}
+/* Styles pour les écrans de téléphone portable */
+@media screen and (max-width: 768px) {
+    .bloc {
+        width: 100%; /* Largeur totale sur les écrans de téléphone */
+    }
+    .flex2 {
+        display: flex;
+        flex-direction: column; /* Afficher les blocs en colonne */
+        align-items: center; /* Centrer horizontalement */
+        width: 100%;
+    }
+    .flex1{
+        display: flex;
+         /* Afficher les blocs en colonne */
+        align-items: center; /* Centrer horizontalement */
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+
